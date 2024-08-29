@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+header h1{
+    display: block;
+    background-color: purple;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 3.25rem;
+}
+#health-levels h1, progress{
+    font-size: 32px;
+}
+
+#health-levels,#controls{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    width: 30rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    margin: 2rem auto;
+    border-radius: 10px;
+    background-color: white;
+}
+#controls button{
+    font: inherit;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    width: 95%;
+    padding: 1rem;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+progress{
+    width: 90%;
+    height: 2rem;
+    color: purple;
+    margin: 0;
+    border: 1px solid purple;
+}
+
+#health{
+ 
+    background-color: purple;
+    padding: 0.1rem 0.5rem;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+#controls button:hover{
+    cursor:pointer;
+    border: 2px solid purple;
+    background-color: purple;
+    color: white;
+}
